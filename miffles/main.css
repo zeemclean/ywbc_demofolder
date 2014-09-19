@@ -1,0 +1,13 @@
+
+h1 {
+	text-align: center;
+}
+.thoughtbox{
+	background: #3f729b;
+	height: 200px;
+	color: #E4238E;
+	
+}
+.thought {
+	color: inherit;
+}

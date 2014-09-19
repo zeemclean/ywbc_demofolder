@@ -1,0 +1,29 @@
+{
+  "People": [
+    {
+      "name" : "Mitch Moreland",
+      "hash" : "#f5d12a",
+      "description" : "Mitchell Austin Moreland (born September 6, 1985) is a professional baseball first baseman who plays for the Texas Rangers."
+    },
+    {
+      "name" : "John Ross",
+      "hash" : "#2319b7",
+      "description" : "John Ross is a comic book artist who lives and works in the UK."
+    },
+    {
+      "name" : "Christiana Oxenstierna",
+      "hash" : "#42f869",
+      "description" : "Christiana Juliana Oxenstierna (23 September 1661 – 27 February 1701) was a Swedish noble"
+    },
+    {
+      "name" : "Gust Stemmler",
+      "hash" : "#fd57b9",
+      "description" : "Gust L. Stemmler (December 10, 1899 – November 1986) is a former Democratic member of the Pennsylvania House of Representatives."
+    },
+    {
+      "name" : "Stuart Still",
+      "hash" : "#023eaa",
+      "description" : "Stuart John Still (born 14 December 1957) is a former English cricketer. Still was a right-handed batsman who bowled right-arm medium pace."
+    }
+  ]
+}

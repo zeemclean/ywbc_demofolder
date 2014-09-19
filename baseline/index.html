@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Grid</title>
+
+	<link rel="stylesheet" href="http://basehold.it/24">
+
+	<style type="text/css">
+		
+		* { 
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		}
+
+		body {
+			font-size: 62.5%;
+			line-height: 1.5;
+		}
+
+		.container { 
+			max-width: 960px;
+			margin: 0 auto;
+		}
+
+		.row {
+			margin-bottom: 20px;
+		}
+		
+		.row:after {
+			content: " ";
+			display: table;
+			clear: both;
+		}
+
+		[class*='col-'] {
+			float:left;
+			padding-right: 20px;
+
+		}
+		[class*='col-']:last-of-type {
+			padding-right: 0;
+		}
+		
+		.col-1-1 {
+			width: 100%;
+		}
+
+		.col-1-2 {
+			width: 50%;
+		}
+		
+		.col-1-3 {
+			width: 33.333%;
+		}
+
+		.col-1-4 {
+			width: 25%;
+		}
+
+		.col-1-5 {
+			width: 20%;
+		}
+		
+		.col-1-6 { 
+			width: 16.6666%;
+		}
+
+		.col-1-8 {
+			width: 12.5%;
+		}
+
+		.col-1-12 {
+			width: 8.33333%;
+		}
+
+		.col-2-3 {
+			width: 66.6666%;
+		}
+
+		.col-3-4 {
+			width: 75%;
+		}
+
+		.col-2-5 {
+			width: 40%;
+		}
+		
+		.col-3-5 {
+			width: 60%;
+		}
+
+		.content {
+			background: #ececec;
+			padding: 20px;
+		}
+		.inner_content {
+			background: #fff;
+		}
+
+		/***/
+
+		p {
+			font-size: 16px;
+			line-height: 24px;
+			margin-bottom: 18px;
+			padding-top: 6px;
+		}
+		
+		h1 {
+			font-size: 40px;
+			margin-bottom: 14px;
+			line-height: 48px;
+			padding-top: 10px;
+		}
+
+		h3 {
+			font-size: 26px;
+			line-height: 36px;
+			margin-bottom: 15px;
+			padding-top: 21px;
+		}
+
+	</style>
+
+</head>
+<body>
+<main class="container">
+	<div class="row">
+		<div class="col-1-2">
+			
+			<h1>Heading</h1>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptatibus culpa assumenda magnam nulla vel aut, nemo temporibus, minus iure blanditiis repellendus ipsum nesciunt maiores nisi laboriosam a explicabo accusantium.</p>
+			<p>A fugit similique quibusdam explicabo asperiores vitae vel velit, placeat harum facilis esse, itaque id aliquam quia ullam ipsam possimus iste doloremque soluta ipsum eligendi. Deserunt ullam est nesciunt provident!</p>
+			
+			<h3>Heading</h3>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate iusto mollitia voluptas quidem at consequuntur similique magni magnam aspernatur sequi vel sapiente, hic sunt ipsum atque nemo, praesentium fugiat quam.</p>
+			<p>Quae amet, placeat, temporibus nesciunt laboriosam inventore asperiores quaerat cum odio aspernatur ea in repudiandae quas quos similique tempore officia omnis minus odit modi magnam. Exercitationem aperiam, eius magnam aliquid!</p>
+			<p>Et quidem reprehenderit molestiae est temporibus, molestias fugit laboriosam facilis, iure nulla perspiciatis, autem earum deleniti qui vitae sunt impedit perferendis tempore ipsa doloremque, tenetur! Itaque, cupiditate quos voluptate vitae!</p>
+		</div>
+		
+		<div class="col-1-2">
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quasi laboriosam, suscipit, animi rerum perferendis laudantium veniam asperiores facilis incidunt! Ducimus fugit minus incidunt a doloribus vitae consequuntur maiores perspiciatis?</p>
+			<p>Aperiam perferendis, itaque. Fugiat ea sequi sed, velit beatae excepturi soluta sunt, itaque corrupti, quidem expedita ab cumque amet maxime voluptatum necessitatibus. Est consectetur perferendis mollitia sapiente labore, libero rem!</p>
+			<p>Omnis maxime minima illo excepturi, cumque nesciunt accusantium saepe quam corporis id necessitatibus et voluptas amet fugiat quisquam velit blanditiis unde sunt aspernatur voluptatem deserunt ratione provident eligendi suscipit! Quae!</p>
+			
+			<h3>Heading</h3>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sequi debitis, reiciendis dignissimos, voluptatibus commodi optio vero repudiandae deserunt itaque, dolor iste necessitatibus. Molestias, obcaecati, iusto laboriosam temporibus tenetur vel.</p>
+			<p>Illum, earum ullam similique rerum. Ducimus ipsa alias fuga repellendus inventore possimus repudiandae exercitationem nisi, ut, corporis consectetur, est sapiente neque adipisci commodi. Quidem eaque fugiat id libero, dolore molestias!</p>
+		
+		</div>
+	</div>
+</main>
+
+</body>
+</html>

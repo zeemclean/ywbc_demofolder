@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Grid</title>
+	<style type="text/css">
+		
+		* { 
+		box-sizing: border-box;
+		}
+
+		.container { 
+			max-width: 960px;
+			margin: 0 auto;
+		}
+
+		.row {
+			margin-bottom: 20px;
+		}
+		
+		.row:after {
+			content: " ";
+			display: table;
+			clear: both;
+		}
+
+		[class*='col-'] {
+			float:left;
+			padding-right: 20px;
+
+		}
+		[class*='col-']:last-of-type {
+			padding-right: 0;
+		}
+		
+		.col-1-1 {
+			width: 100%;
+		}
+
+		.col-1-2 {
+			width: 50%;
+		}
+		
+		.col-1-3 {
+			width: 33.333%;
+		}
+
+		.col-1-4 {
+			width: 25%;
+		}
+
+		.col-1-5 {
+			width: 20%;
+		}
+		
+		.col-1-6 { 
+			width: 16.6666%;
+		}
+
+		.col-1-8 {
+			width: 12.5%;
+		}
+
+		.col-1-12 {
+			width: 8.33333%;
+		}
+
+		.col-2-3 {
+			width: 66.6666%;
+		}
+
+		.col-3-4 {
+			width: 75%;
+		}
+
+		.col-2-5 {
+			width: 40%;
+		}
+		
+		.col-3-5 {
+			width: 60%;
+		}
+
+		.content {
+			background: #ececec;
+			padding: 20px;
+		}
+		.inner_content {
+			background: #fff;
+		}
+
+	</style>
+
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-1-1">
+				<div class="content">1</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+			<div class="row">
+				<div class="col-1-2">
+					<div class="content">left</div>
+				</div>
+				<div class="col-1-2">
+					<div class="content">right</div>
+				</div>
+			</div>
+	</div>	
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-1-3">
+				<div class="content">column 1</div>
+			</div>
+			<div class="col-1-3">
+				<div class="content">column 2</div>
+			</div>
+			<div class="col-1-3">
+				<div class="content">column 3</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-1-4">
+				<div class="content">column 1</div>
+			</div>
+			<div class="col-1-4">
+				<div class="content">column 2</div>
+			</div>
+			<div class="col-1-4">
+				<div class="content">column 3</div>
+			</div>
+			<div class="col-1-4">
+				<div class="content">column 4</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-1-5">
+				<div class="content">column 1</div>
+			</div>
+			<div class="col-1-5">
+				<div class="content">column 2</div>
+			</div>
+			<div class="col-1-5">
+				<div class="content">column 3</div>
+			</div>
+			<div class="col-1-5">
+				<div class="content">column 4</div>
+			</div>
+			<div class="col-1-5">
+				<div class="content">column 5</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-1-6">
+				<div class="content">column 1</div>
+			</div>
+			<div class="col-1-6">
+				<div class="content">column 2</div>
+			</div>
+			<div class="col-1-6">
+				<div class="content">column 3</div>
+			</div>
+			<div class="col-1-6">
+				<div class="content">column 4</div>
+			</div>
+			<div class="col-1-6">
+				<div class="content">column 5</div>
+			</div>
+			<div class="col-1-6">
+				<div class="content">column 6</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-1-8">
+				<div class="content">column 1</div>
+			</div>
+			<div class="col-1-8">
+				<div class="content">column 2</div>
+			</div>
+			<div class="col-1-8">
+				<div class="content">column 3</div>
+			</div>
+			<div class="col-1-8">
+				<div class="content">column 4</div>
+			</div>
+			<div class="col-1-8">
+				<div class="content">column 5</div>
+			</div>
+			<div class="col-1-8">
+				<div class="content">column 6</div>
+			</div>
+			<div class="col-1-8">
+				<div class="content">column 7</div>
+			</div>
+			<div class="col-1-8">
+				<div class="content">column 8</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-1-12">
+				<div class="content">column 1</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 2</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 3</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 4</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 5</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 6</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 7</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 8</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 9</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 10</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 11</div>
+			</div>
+			<div class="col-1-12">
+				<div class="content">column 12</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-1-3">
+				<div class="content">1 third</div>
+			</div>
+			<div class="col-2-3">
+				<div class="content">2 thirds</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-1-4">
+				<div class="content"> 1 quarter</div>
+			</div>
+			<div class="col-3-4">
+				<div class="content">3 quarters</div>
+			</div>
+		</div>
+		
+			<div class="row">
+				<div class="col-2-5">
+					<div class="content">2 fifths</div>
+				</div>
+				<div class="col-3-5">
+					<div class="content">3 fifths</div>
+				</div>
+			</div>
+
+				<div class="row">
+					<div class="col-3-5">
+						<div class="content">3 fifths</div>
+					</div>
+					<div class="col-2-5">
+						<div class="content">2 fifths</div>
+					</div>
+				</div>
+	</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-1-2">
+			<div class="content">
+				<h3>Things</h3>
+				<div class="row">
+					<div class="col-1-3">
+						<div class="content inner_content">image</div>
+					</div>
+					<div class="col-2-3">
+						<div class="content inner_content">article</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1-3">
+						<div class="content inner_content">image</div>
+					</div>
+					<div class="col-2-3">
+						<div class="content inner_content">article</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-1-2">
+			<div class="content">
+				<h3>Stuff</h3>
+				<div class="row">
+					<div class="col-1-3">
+						<div class="content inner_content">image</div>
+					</div>
+					<div class="col-2-3">
+						<div class="content inner_content">article</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1-3">
+						<div class="content inner_content">image</div>
+					</div>
+					<div class="col-2-3">
+						<div class="content inner_content">article</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

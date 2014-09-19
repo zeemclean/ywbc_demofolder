@@ -1,0 +1,60 @@
+
+@import "sections";
+
+$coffee: #c0ffee;
+$decaf: #decaff;
+$badass: #b4d455;
+
+@mixin blockStyle($colour, $radius) {
+	background: $colour;
+	border: 5x solid darken($colour, 20%);
+	border-radius: $radius;
+
+}
+
+.block {
+	height:400px;
+
+	&.block_1{
+	//background: $coffee;
+	//border: 5px solid darken($coffee, 10%);
+	//border-radius: 20px;
+
+	@include blockStyle($coffee, 30px);
+	}
+
+	&.block_2{
+	//background: $decaf;
+	//border: 5px solid darken($decaf, 60%);
+	//border-radius: 40px;
+	}
+		&.block_3{
+	//background: $badass;
+	//border: 5px solid lighten($badass, 10%);
+	//border-radius: 60px;
+	}
+
+}
+
+
+$colours: red, blue, green;
+
+@each $colour in $colours {
+	.block_#{$colour} {
+	@include blockStyle($colour, 20px);
+	}
+}
+
+
+$colours: red 20px, blue 60px, green 100px;
+
+@each $item in $colours {
+	$colour: nth($item, 1);
+	$radius: nth($item, 2);
+
+	.block_#{$colour} {
+	@include blockStyle($colour, $radius);
+	}
+}
+
+

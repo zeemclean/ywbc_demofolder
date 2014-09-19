@@ -1,0 +1,33 @@
+
+$yellow: #ffb34e;
+$red: #a42812;
+$purple: #4e0630;
+
+
+
+$sections: header $yellow, main $red, footer $purple;
+
+
+
+
+section {
+	height: 400px;
+
+
+
+	@each $section in $sections {
+		$class: nth($section, 1);
+		$color: nth($section, 2);
+
+
+			&.#{$class} {
+			background: $color;
+
+			@if lightness($color) > 60% {
+				color:#000000;
+			} @else {
+			color: #ffffff;
+			}
+		}
+	}
+}

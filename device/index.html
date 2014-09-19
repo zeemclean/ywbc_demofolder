@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Device Examples</title>
+	<script type="text/javascript">
+	console.log(window);
+	window.addEventListener("deviceorientation", function(event){
+		console.log(event);
+		var tiltLR = event.gamma;
+		var tiltFB = event.beta;
+		var dir = event.alpha;
+
+		document.getElementById('gamma').innerHTML = Math.round(tiltLR);
+		document.getElementById('beta').innerHTML = Math.round(tiltFB);
+		document.getElementById('alpha').innerHTML = Math.round(dir);
+
+	})
+
+	</script>
+</head>
+<body>
+	<h1>Device orientation</h1>
+	<p>Tilt Left/right (gamma):<span id="gamma"></span></p>
+	<p>Tilt Front/Back (beta):<span id="beta"></span></p>
+	<p>Compass direction (alpha)<span id="alpha"></span></p>
+</body>
+</html>

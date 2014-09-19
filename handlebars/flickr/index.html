@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Handlebars Flickr</title>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<form class="flickrSearch">
+	<label for="user_tags">Search tags:</label>
+	<input type="text" name="user_tags" id="user_tags">
+	<button type="submit" name="submit">Search</button>
+</form>
+<script type="text/x-handlebars-template" id="flickr-template">
+	{{#each items}}
+	<img src="{{media.m}}">
+	{{/each}}
+</script>
+	
+</body>
+</html>

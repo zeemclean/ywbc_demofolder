@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Z-index Demo</title>
+	<style>
+
+#container {
+	height: 800px;
+	width: 800px;
+	margin: 0 auto;
+	background: #ececec;
+	position: relative;
+}
+
+.block {
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: absolute;
+	border: 1px solid darkred;
+}
+
+.block_1 {
+	top: 50px;
+	left: 100px;
+	background: yellow;
+	z-index: 5;
+}
+
+.block_2 {
+	top: 100px;
+	left: 150px;
+	background: blue;
+	z-index: 5;
+}
+
+.block_3 {
+	bottom: 150px;
+	right: 100px;
+	background: green;
+}
+
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="block block_1"></div>
+		<div class="block block_2"></div>
+		<div class="block block_3"></div>
+		<div class="block block_4"></div>
+	</div>
+</body>
+</html>

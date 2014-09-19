@@ -1,0 +1,117 @@
+<?php
+ 
+/*
+ 
+Coding excercise - The clothes washing robot.
+ 
+THINK LIKE A DEVELOPER!
+    _____ 
+   | ^_^ |
+   M-----M               ______
+  /|  .  |\             |  __  |  
+   -------    \wWwWw/   | (  ) | 
+     | |       \___/    |  TT  | 
+================================== 
+   ROBOT      BASKET     WASHER
+ 
+Program this robot to wash your baskets of clothes!
+ 
+Your clothes are in a basket, which is the same as an array in coding terms!
+ 
+The robot can use a function called putItemInWash() for one item, or 
+putPileInWash() for a whole basket!
+ 
+Use pseudo code for this - you do NOT have to code it up! This excercise is about
+the procblem solving side of programming, so we're not worried about syntax.
+ 
+Think of the tools we have as programmers while you are problem solving, such as:
+	
+	- Foreach loops
+	- If and else statements
+	- Adding items to an array, which in this case could be a basket of clothes!
+	- We can call other functions (like putItemInWash), and for this excercise 
+	  you don't have to write them.
+ 
+ 
+LEVEL 1
+ 
+Tell the robot to wash your whole basket of clothes at once!
+ 
+=================// YOUR PSEUDO CODE HERE! \\=====================================
+ 
+ Use putBasketInWash on basket
+ putBasketInWash($basket)
+ 
+ 
+ 
+==================================================================================
+ 
+LEVEL 2
+ 
+Tell the robot to go through each item in your clothes basket, and for each one,
+use a function called checkPockets(). Then put the item in the wash.
+ 
+=================// YOUR PSEUDO CODE HERE! \\=====================================
+ 
+ foreach item in basket
+  checkPockets($item)
+  putItemInWash($item)
+ 
+ 
+==================================================================================
+ 
+ 
+LEVEL 3
+ 
+Tell the robot you want the items sorted into colored and white items, then washed 
+in separate washes. It will need to make two new baskets, and go through the clothes 
+and put them in the correct color basket, then wash that basket.
+ 
+=================// YOUR PSEUDO CODE HERE! \\=====================================
+ 
+Get basket for white clothes:
+$whiteBasket = array()
+
+ foreach item in basket 
+  checkPockets(item)
+  checkItemColour(item)
+  if()  white {
+    put in white basket
+     $whitebasket[] = $item;
+  }
+  else {
+    put in coloured basket
+      $colouredbasket[] = $item;
+  }
+
+  putBasketInWash($whiteBasket)
+  putBasketInWash($colouredBasket)
+ 
+ 
+ 
+==================================================================================
+ 
+LEVEL 4
+ 
+Now you want to wash the clothes by each color group. Tell the robot to go through
+each item, and check its color. It might need to start a new basket for that color
+or add it to an existing basket. Then it needs to wash each basket separately.
+ 
+=================// YOUR PSEUDO CODE HERE! \\=====================================
+
+Check $colour of item
+  check if there is a basket with that colour
+    if there is, add the item to that basket,
+    "$color"basket[] = $item;
+    if there isn't, assign a new basket to that colour.
+
+    for each basket
+    put basket in wash
+    
+
+ 
+ 
+ 
+==================================================================================
+ 
+*/

@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	@include animation(fadeIn, 3s, ease-in-out, 0);
+}
+
+.container {
+	width:100%;
+}
+
+
+
+section {
+	min-height: 300px;
+	background: #ececec;
+	border: 1px solid #333;
+	padding: 1em;
+
+}
+
+section + section {
+	border-top: none;
+}
+
+p {
+	font-size: 1.3em;
+	line-height: 1.6em; 
+}
+
+
+@include respond($tablet) {
+
+	section {
+		float: left;
+		width: 33.33%;
+		min-height: 400px;
+
+	}
+
+	section + section {
+		border-top: 1px solid #333;
+	}
+
+}
+
+
+@include respond($large-desktop) {
+	
+	.container {
+		width: 1170px;
+		margin: 0 auto;
+		clear:both;
+	}
+
+
+	section {
+		width: 50%;
+	}
+
+	section:last-child{
+		width: 100%;
+		border-top: none;
+		background: url(http://placehold.it/350x150);
+	}
+}

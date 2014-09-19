@@ -1,0 +1,27 @@
+.thumb {
+	width: 120px;
+	margin: 5px;
+	float: left;
+}
+
+body {
+	background-image: url("../images/atuin.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.thumb_window {
+
+	overflow-x: scroll;
+
+
+}
+.thumb_container {
+	width: 3000px;
+	white-space: nowrap;
+}
+h2 {
+	color: white;
+
+}
+

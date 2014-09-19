@@ -1,0 +1,71 @@
+.the-rainbow {
+	padding: 15px;
+	/* Don't display initially */
+	display: none;
+}
+ 
+.the-rainbow div {
+	position: relative;
+	width: 130px;
+	display: block;
+	float: left;
+	height: 300px;
+	text-align: center;
+}
+ 
+#draw-rainbow, .the-rainbow div, .your-favourite {
+	font-size: 40px;
+	color:  #fff;
+	text-align: center;
+}
+ 
+button.favourite {
+	margin-top: 130px;
+	height: 50px;
+	width: 50px;
+	color: #FFF;
+}
+ 
+.your-favourite {
+	background-color: #000;
+	padding: 30px;
+	clear: both;
+	margin-top: 20px;
+	width: 910px;
+	margin-left: 15px;
+	display: none;
+}
+ 
+button {
+	background-color: inherit;
+	border: none;
+ 
+}
+ 
+.red {
+	background-color: #EC1E24;
+}
+ 
+.orange {
+	background-color: #F45A2C;
+}
+ 
+.yellow {
+	background-color: #FCF204;
+}
+ 
+.blue {
+	background-color: #04AEEC;
+}
+ 
+.green {
+	background-color: #3CB64C;
+}
+ 
+.indigo {
+	background-color: #242264;
+}
+ 
+.purple {
+	background-color: #94268C;
+}

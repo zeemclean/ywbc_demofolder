@@ -1,0 +1,20 @@
+@import "mixins";
+@import "animations";
+
+.section {
+	padding: 100px;
+}
+
+.box-box{
+	height: 400px;
+	margin-top: 100px;
+}
+
+#box{
+	background-color: blue;
+	position:relative;
+	height: 100px;
+	width:100px;
+	@include animation(squaredance, 3s, linear, 0, infinite, normal);
+
+}

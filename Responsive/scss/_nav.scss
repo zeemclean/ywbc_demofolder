@@ -1,0 +1,74 @@
+
+header {
+	@include clearfix;
+	background: #3d3e4e;
+
+}
+
+.button {
+	color:white;
+	padding: 1em;
+	border: 2px solid #ffae00;
+	text-align:center;
+
+	@include respond($tablet){
+		display:none;
+	}
+
+}
+
+a.hide {
+	text-decoration:none;
+	color: white;
+}
+
+nav {
+	display: none;	
+
+
+	@include respond($tablet) {
+		@include clearfix;
+		float:right;
+		display:block;
+	}
+
+
+
+	.nav_item {
+		text-align: center;
+		padding:1em;
+		color: white;
+		
+		$i: 1s;
+		@for $item from 1 to 6 {
+			&:nth-child(#{$item}){
+				@include animation(slideIn, .5s, linear, $i);	
+			}
+
+			$i: $i + .2s;
+		}
+
+
+		
+		@include respond($tablet) {
+			float:left;
+			border-left: 2px solid white;
+
+			$i: 1s;
+			@for $item from 1 to 6 {
+				&:nth-child(#{$item}) {
+					@include animation(slideDown, 0.3s, linear, $i);
+	
+				}
+
+				$i: $i +.2s;
+			}
+			
+
+		}
+
+
+
+	}
+
+}

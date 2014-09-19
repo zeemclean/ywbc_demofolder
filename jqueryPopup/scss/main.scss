@@ -1,0 +1,74 @@
+
+@mixin animation ($name, $duration, $count, $timing){
+	-webkit-animation-name: $name;
+	-webkit-animation-duration: $duration;
+	-webkit-animation-iteration-count: $count;
+	-webkit-animation-timing-function: $timing;
+}
+
+
+
+
+
+@-webkit-keyframes slideIn {
+	from{
+		left: -100%;
+	}
+	to {
+		left:0;
+	}
+}
+
+@-webkit-keyframes slideOut {
+	from{
+		left: 0;
+	}
+	to {
+		left:200%;
+	}
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+main {
+	width: 960px;
+	margin:0 auto;
+}
+.button {
+	background: blue;
+	padding: 0.4em 0.6em;
+	color: white;
+
+	&.button_close {
+	background: red;
+	}
+}
+
+#popup {
+	background: grey;
+	width: 600px;
+	height: 400px;
+	padding: 1em;
+	margin-top: 50px;
+	display: none;
+	position: absolute;
+	top: 20%;
+	
+
+	&.show {
+		display: block;
+		@include animation(slideIn, 500ms, 1, linear);
+	}
+	&.hide {
+		display:block;
+		@include animation(slideOut, 500ms, 1, linear)
+	}
+}
+
+
+

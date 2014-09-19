@@ -1,0 +1,72 @@
+/* line 13, ../sass/_sections.scss */
+section {
+  height: 400px;
+}
+/* line 23, ../sass/_sections.scss */
+section.header {
+  background: #ffb34e;
+  color: #000000;
+}
+/* line 23, ../sass/_sections.scss */
+section.main {
+  background: #a42812;
+  color: #ffffff;
+}
+/* line 23, ../sass/_sections.scss */
+section.footer {
+  background: #4e0630;
+  color: #ffffff;
+}
+
+/* line 15, ../sass/main.scss */
+.block {
+  height: 400px;
+}
+/* line 18, ../sass/main.scss */
+.block.block_1 {
+  background: #c0ffee;
+  border: 5x solid #5affd2;
+  border-radius: 30px;
+}
+
+/* line 43, ../sass/main.scss */
+.block_red {
+  background: red;
+  border: 5x solid #990000;
+  border-radius: 20px;
+}
+
+/* line 43, ../sass/main.scss */
+.block_blue {
+  background: blue;
+  border: 5x solid #000099;
+  border-radius: 20px;
+}
+
+/* line 43, ../sass/main.scss */
+.block_green {
+  background: green;
+  border: 5x solid #001a00;
+  border-radius: 20px;
+}
+
+/* line 55, ../sass/main.scss */
+.block_red {
+  background: red;
+  border: 5x solid #990000;
+  border-radius: 20px;
+}
+
+/* line 55, ../sass/main.scss */
+.block_blue {
+  background: blue;
+  border: 5x solid #000099;
+  border-radius: 60px;
+}
+
+/* line 55, ../sass/main.scss */
+.block_green {
+  background: green;
+  border: 5x solid #001a00;
+  border-radius: 100px;
+}

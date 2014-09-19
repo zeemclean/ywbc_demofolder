@@ -1,0 +1,36 @@
+
+$containerWidth: 960px;
+
+$blockWidth: $containerWidth / 4;
+main {
+	width: $containerWidth;
+	margin: 0 auto;
+}
+
+.block {
+	width:$blockWidth;
+	height: $blockWidth;
+	float:left;
+	background: #777;
+
+	span {
+	color:white;
+	}
+
+	&.block_red {
+	background: red;
+	}
+
+	&.block_blue {
+	background: blue;
+	}
+
+	&.block_green {
+	background:green;
+	}
+
+	&.block_yellow {
+	background:yellow;
+	}
+
+}

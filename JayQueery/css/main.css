@@ -1,0 +1,26 @@
+
+
+div.ipsum > div {
+	display: block;
+}
+div.ipsum > div + div {
+	display: none;
+}
+div.item {
+	display: none;
+	margin:0;
+	width:980px;
+	height:80px;
+	font-size:30px;
+	border-bottom:white dashed 1px;
+	padding:0px 10px 0px 10px;
+	background: #0AC2D2;
+	color: white;
+}
+#feeds{
+  width:1000px;
+  margin-left:200px;
+  margin-right:auto;
+  margin-top:40px;
+  border-top:white dashed 1px;
+}

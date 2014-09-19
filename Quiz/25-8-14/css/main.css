@@ -1,0 +1,183 @@
+@-webkit-keyframes squaredance {
+  /* line 2, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 7, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  /* line 13, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  /* line 18, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+
+  /* line 22, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@-moz-keyframes squaredance {
+  /* line 2, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 7, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  /* line 13, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  /* line 18, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+
+  /* line 22, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@-o-keyframes squaredance {
+  /* line 2, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 7, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  /* line 13, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  /* line 18, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+
+  /* line 22, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@-ms-keyframes squaredance {
+  /* line 2, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 7, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  /* line 13, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  /* line 18, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+
+  /* line 22, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes squaredance {
+  /* line 2, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 7, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  /* line 13, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  /* line 18, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+
+  /* line 22, /Users/zoe.mclean/Sites/Quiz/25-8-14/scss/_animations.scss */
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* line 4, ../scss/main.scss */
+.section {
+  padding: 100px;
+}
+
+/* line 8, ../scss/main.scss */
+.box-box {
+  height: 400px;
+  margin-top: 100px;
+}
+
+/* line 13, ../scss/main.scss */
+#box {
+  background-color: blue;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  -webkit-animation: squaredance 3s linear 0 infinite normal;
+  -moz-animation: squaredance 3s linear 0 infinite normal;
+  -o-animation: squaredance 3s linear 0 infinite normal;
+  -ms-animation: squaredance 3s linear 0 infinite normal;
+  animation: squaredance 3s linear 0 infinite normal;
+}

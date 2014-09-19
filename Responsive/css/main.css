@@ -1,0 +1,564 @@
+@-webkit-keyframes fadeIn {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideDown {
+  /* line 14, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+
+  /* line 17, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 21, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateY(-20px);
+  }
+
+  /* line 24, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-moz-keyframes slideDown {
+  /* line 14, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+
+  /* line 17, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 21, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateY(-20px);
+  }
+
+  /* line 24, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-o-keyframes slideDown {
+  /* line 14, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+
+  /* line 17, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 21, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateY(-20px);
+  }
+
+  /* line 24, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-ms-keyframes slideDown {
+  /* line 14, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+
+  /* line 17, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 21, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateY(-20px);
+  }
+
+  /* line 24, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@keyframes slideDown {
+  /* line 14, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+
+  /* line 17, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 21, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateY(-20px);
+  }
+
+  /* line 24, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideIn {
+  /* line 30, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+
+  /* line 33, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 37, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateX(-20px);
+  }
+
+  /* line 41, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes slideIn {
+  /* line 30, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+
+  /* line 33, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 37, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateX(-20px);
+  }
+
+  /* line 41, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-o-keyframes slideIn {
+  /* line 30, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+
+  /* line 33, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 37, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateX(-20px);
+  }
+
+  /* line 41, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-ms-keyframes slideIn {
+  /* line 30, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+
+  /* line 33, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 37, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateX(-20px);
+  }
+
+  /* line 41, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes slideIn {
+  /* line 30, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+
+  /* line 33, ../scss/_animations.scss */
+  70% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 37, ../scss/_animations.scss */
+  90% {
+    -webkit-transform: translateX(-20px);
+  }
+
+  /* line 41, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+/* line 2, ../scss/_button.scss */
+.btn {
+  background: red;
+  color: #330000;
+  font-size: 1.2em;
+  padding: 1em 2em;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* line 12, ../scss/_button.scss */
+.btn-1 {
+  -webkit-transition: all 1s ease-in 0;
+  -moz-transition: all 1s ease-in 0;
+  -o-transition: all 1s ease-in 0;
+  -ms-transition: all 1s ease-in 0;
+  transition: all 1s ease-in 0;
+}
+/* line 16, ../scss/_button.scss */
+.btn-1:hover {
+  background: blue;
+  color: white;
+}
+
+/* line 22, ../scss/_button.scss */
+.btn-2 {
+  border: 4px solid red;
+  -webkit-transition: all 0.3s ease-in-out 0;
+  -moz-transition: all 0.3s ease-in-out 0;
+  -o-transition: all 0.3s ease-in-out 0;
+  -ms-transition: all 0.3s ease-in-out 0;
+  transition: all 0.3s ease-in-out 0;
+}
+/* line 27, ../scss/_button.scss */
+.btn-2:hover {
+  background: none;
+  border-radius: 4px;
+}
+
+/* line 32, ../scss/_button.scss */
+.btn-3 {
+  -webkit-transition: all 0.3s ease-in-out 0;
+  -moz-transition: all 0.3s ease-in-out 0;
+  -o-transition: all 0.3s ease-in-out 0;
+  -ms-transition: all 0.3s ease-in-out 0;
+  transition: all 0.3s ease-in-out 0;
+}
+/* line 34, ../scss/_button.scss */
+.btn-3:hover {
+  transform: scale(1.2);
+}
+
+/* line 38, ../scss/_button.scss */
+.btn-4 {
+  border-radius: 8px;
+  box-shadow: 0 6px 0 #990000;
+  top: 0;
+  -webkit-transition: all 0.3s ease-in-out 0;
+  -moz-transition: all 0.3s ease-in-out 0;
+  -o-transition: all 0.3s ease-in-out 0;
+  -ms-transition: all 0.3s ease-in-out 0;
+  transition: all 0.3s ease-in-out 0;
+}
+/* line 44, ../scss/_button.scss */
+.btn-4:hover {
+  top: 2px;
+  box-shadow: 0 4px 0 #990000;
+}
+
+/* line 1, ../scss/_layout.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../scss/_layout.scss */
+body {
+  -webkit-animation: fadeIn 3s ease-in-out 0 1 both;
+  -moz-animation: fadeIn 3s ease-in-out 0 1 both;
+  -o-animation: fadeIn 3s ease-in-out 0 1 both;
+  -ms-animation: fadeIn 3s ease-in-out 0 1 both;
+  animation: fadeIn 3s ease-in-out 0 1 both;
+}
+
+/* line 12, ../scss/_layout.scss */
+.container {
+  width: 100%;
+}
+
+/* line 18, ../scss/_layout.scss */
+section {
+  min-height: 300px;
+  background: #ececec;
+  border: 1px solid #333;
+  padding: 1em;
+}
+
+/* line 26, ../scss/_layout.scss */
+section + section {
+  border-top: none;
+}
+
+/* line 30, ../scss/_layout.scss */
+p {
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 38, ../scss/_layout.scss */
+  section {
+    float: left;
+    width: 33.33%;
+    min-height: 400px;
+  }
+
+  /* line 45, ../scss/_layout.scss */
+  section + section {
+    border-top: 1px solid #333;
+  }
+}
+@media screen and (min-width: 1170px) {
+  /* line 54, ../scss/_layout.scss */
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  /* line 61, ../scss/_layout.scss */
+  section {
+    width: 50%;
+  }
+
+  /* line 65, ../scss/_layout.scss */
+  section:last-child {
+    width: 100%;
+    border-top: none;
+    background: url(http://placehold.it/350x150);
+  }
+}
+/* line 2, ../scss/_nav.scss */
+header {
+  background: #3d3e4e;
+}
+/* line 12, ../scss/_mixins.scss */
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 8, ../scss/_nav.scss */
+.button {
+  color: white;
+  padding: 1em;
+  border: 2px solid #ffae00;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  /* line 8, ../scss/_nav.scss */
+  .button {
+    display: none;
+  }
+}
+
+/* line 20, ../scss/_nav.scss */
+a.hide {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 25, ../scss/_nav.scss */
+nav {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  /* line 25, ../scss/_nav.scss */
+  nav {
+    float: right;
+    display: block;
+  }
+  /* line 12, ../scss/_mixins.scss */
+  nav:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+/* line 37, ../scss/_nav.scss */
+nav .nav_item {
+  text-align: center;
+  padding: 1em;
+  color: white;
+}
+/* line 44, ../scss/_nav.scss */
+nav .nav_item:nth-child(1) {
+  -webkit-animation: slideIn 0.5s linear 1s 1 both;
+  -moz-animation: slideIn 0.5s linear 1s 1 both;
+  -o-animation: slideIn 0.5s linear 1s 1 both;
+  -ms-animation: slideIn 0.5s linear 1s 1 both;
+  animation: slideIn 0.5s linear 1s 1 both;
+}
+/* line 44, ../scss/_nav.scss */
+nav .nav_item:nth-child(2) {
+  -webkit-animation: slideIn 0.5s linear 1.2s 1 both;
+  -moz-animation: slideIn 0.5s linear 1.2s 1 both;
+  -o-animation: slideIn 0.5s linear 1.2s 1 both;
+  -ms-animation: slideIn 0.5s linear 1.2s 1 both;
+  animation: slideIn 0.5s linear 1.2s 1 both;
+}
+/* line 44, ../scss/_nav.scss */
+nav .nav_item:nth-child(3) {
+  -webkit-animation: slideIn 0.5s linear 1.4s 1 both;
+  -moz-animation: slideIn 0.5s linear 1.4s 1 both;
+  -o-animation: slideIn 0.5s linear 1.4s 1 both;
+  -ms-animation: slideIn 0.5s linear 1.4s 1 both;
+  animation: slideIn 0.5s linear 1.4s 1 both;
+}
+/* line 44, ../scss/_nav.scss */
+nav .nav_item:nth-child(4) {
+  -webkit-animation: slideIn 0.5s linear 1.6s 1 both;
+  -moz-animation: slideIn 0.5s linear 1.6s 1 both;
+  -o-animation: slideIn 0.5s linear 1.6s 1 both;
+  -ms-animation: slideIn 0.5s linear 1.6s 1 both;
+  animation: slideIn 0.5s linear 1.6s 1 both;
+}
+/* line 44, ../scss/_nav.scss */
+nav .nav_item:nth-child(5) {
+  -webkit-animation: slideIn 0.5s linear 1.8s 1 both;
+  -moz-animation: slideIn 0.5s linear 1.8s 1 both;
+  -o-animation: slideIn 0.5s linear 1.8s 1 both;
+  -ms-animation: slideIn 0.5s linear 1.8s 1 both;
+  animation: slideIn 0.5s linear 1.8s 1 both;
+}
+@media screen and (min-width: 768px) {
+  /* line 37, ../scss/_nav.scss */
+  nav .nav_item {
+    float: left;
+    border-left: 2px solid white;
+  }
+  /* line 59, ../scss/_nav.scss */
+  nav .nav_item:nth-child(1) {
+    -webkit-animation: slideDown 0.3s linear 1s 1 both;
+    -moz-animation: slideDown 0.3s linear 1s 1 both;
+    -o-animation: slideDown 0.3s linear 1s 1 both;
+    -ms-animation: slideDown 0.3s linear 1s 1 both;
+    animation: slideDown 0.3s linear 1s 1 both;
+  }
+  /* line 59, ../scss/_nav.scss */
+  nav .nav_item:nth-child(2) {
+    -webkit-animation: slideDown 0.3s linear 1.2s 1 both;
+    -moz-animation: slideDown 0.3s linear 1.2s 1 both;
+    -o-animation: slideDown 0.3s linear 1.2s 1 both;
+    -ms-animation: slideDown 0.3s linear 1.2s 1 both;
+    animation: slideDown 0.3s linear 1.2s 1 both;
+  }
+  /* line 59, ../scss/_nav.scss */
+  nav .nav_item:nth-child(3) {
+    -webkit-animation: slideDown 0.3s linear 1.4s 1 both;
+    -moz-animation: slideDown 0.3s linear 1.4s 1 both;
+    -o-animation: slideDown 0.3s linear 1.4s 1 both;
+    -ms-animation: slideDown 0.3s linear 1.4s 1 both;
+    animation: slideDown 0.3s linear 1.4s 1 both;
+  }
+  /* line 59, ../scss/_nav.scss */
+  nav .nav_item:nth-child(4) {
+    -webkit-animation: slideDown 0.3s linear 1.6s 1 both;
+    -moz-animation: slideDown 0.3s linear 1.6s 1 both;
+    -o-animation: slideDown 0.3s linear 1.6s 1 both;
+    -ms-animation: slideDown 0.3s linear 1.6s 1 both;
+    animation: slideDown 0.3s linear 1.6s 1 both;
+  }
+  /* line 59, ../scss/_nav.scss */
+  nav .nav_item:nth-child(5) {
+    -webkit-animation: slideDown 0.3s linear 1.8s 1 both;
+    -moz-animation: slideDown 0.3s linear 1.8s 1 both;
+    -o-animation: slideDown 0.3s linear 1.8s 1 both;
+    -ms-animation: slideDown 0.3s linear 1.8s 1 both;
+    animation: slideDown 0.3s linear 1.8s 1 both;
+  }
+}

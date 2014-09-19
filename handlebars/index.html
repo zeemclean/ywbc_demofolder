@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Handlebars Demo</title>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<button id="tweetbtn">Get Tweets</button>
+	<button id="gradebtn">Get Grades</button>
+	<script id="twitter-template" type="text/x-handlebars-template">
+		<p>{{text}}</p>
+		<p>{{user.name}}</p>
+	</script>
+	<script type="text/x-handlebars-template" id="student-template">
+		<ul>
+			{{#each students}}
+			<li>
+				<h3>{{name}}</h3>
+				<h4>{{subject}}</h4>
+				<p>{{mark}}</p>
+			</li>
+			{{/each}}
+		</ul>
+	</script>
+
+	
+</body>
+</html>
